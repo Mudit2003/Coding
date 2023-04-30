@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void){
+int celsius;
+printf("What is the temperature in celsius : ");
+scanf("%d" ,&celsius);
+float Farheneit = {9/5*(celsius)}+32;
+printf("The value of temperature in Farheneit is : %f " , Farheneit );
+return 0;
+}

@@ -1,0 +1,18 @@
+---------------------------  DSA Notes --------------------------------------
+
+
+Linked List : A data structure which stores a list but at non-continuous memory location , more efficient searching , inserting
+and deleting are the prominent features .
+
+Generally we create a structure to denote a node of the linked list 
+
+struct node{
+Info ;
+struct node* next ; // Address of next 
+};
+
+We can also store a linked list by creating parallel arrays 
+
+Info[10]={12 , 13 , 16 , 18 , 20 , 25 , 42 , 34 , 90 , 42};
+*start = Info + 5 ;
+*next[10] = {Info + 2 , Info + 0 , Info + 6 , Info + 4 , Info + 5 , Info + 8 , Info + 7 , Info + 1 , Info + 9 , () };
